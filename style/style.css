@@ -52,7 +52,6 @@ nav .menu a {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  border: 1px solid red;
 }
 #banner .banner-content .early-access {
   font-size: 16px;
@@ -62,7 +61,7 @@ nav .menu a {
   margin: auto;
   color: #469165;
   border-radius: 20px;
-  padding: 5px; 
+  padding: 5px;
 }
 #banner .banner-content h1 {
   color: white;
@@ -81,41 +80,130 @@ nav .menu a {
   text-align: center;
   justify-content: center;
 }
-#banner .banner-content .button ul  {
+#banner .banner-content .button ul {
   margin-top: 15px;
   display: flex;
   gap: 15px;
   justify-content: center;
-  
 }
-#banner .banner-content .button{
-  
-}
-#banner .banner-content .button li{
-  
+
+#banner .banner-content .button li {
   list-style-type: none;
   margin-top: 45px;
- 
 }
-#banner .banner-content .button a{
+#banner .banner-content .button a {
   text-decoration: none;
   gap: 40px;
- 
 }
-#banner .banner-content .button .first-button{
-  background-color:#30b868 ;
+#banner .banner-content .button .first-button {
+  background-color: #30b868;
   padding: 16px 46px 16px 16px;
-  justify-content:center;
+  justify-content: center;
   border-radius: 5px;
   color: white;
   font-size: 16px;
-  font-weight:400;
-  
-
+  font-weight: 400;
 }
-#banner .banner-content .button .second-button{
+#banner .banner-content .button .second-button {
   color: white;
   border: 1px solid white;
   padding: 16px 16px 16px 46px;
   border-radius: 5px;
+}
+#notes {
+  margin-top: 40px;
+}
+#notes .notes-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+#notes .notes-container h2 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.notes-container p {
+  font-size: 18px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+#notes .notes-container .note-box {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+.note-box .note-cards {
+  padding: 70px 24px;
+  max-width: 322px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.119);
+}
+.note-cards img {
+  max-width: 60px;
+  margin-bottom: 16px;
+  background-color: red;
+  padding: 14px;
+  border-radius: 30px;
+}
+.note-cards h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.notes-card p {
+  font-size: 16px;
+  color: #627382;
+}
+#picture-banner {
+  margin-top: 120px;
+  
+
+}
+#picture-banner .picture-content {
+  width: 85%;
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+.picture-content img {
+  max-width: 600px;
+}
+.picture-content .text-content {
+  text-align: left;
+  width: 700px;
+  margin: 102px 0 102px 60px;
+}
+.text-content h6{
+  font-size: 16px;
+  color: #30b868;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.text-content h3{
+  font-size: 48px;
+  margin-top: 16px;
+  line-height: 60px;
+}
+.text-content p{
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 26px;
+
+}
+.text-content img{
+  width: 16px;
+}
+.text-content ul{
+ margin-top: 16px;
+ text-decoration: none;
+ list-style-type: none;
+}
+.text-content  li {
+  font-size: 16px;
+  margin-top: 16px;
+
 }
