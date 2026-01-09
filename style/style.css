@@ -53,6 +53,12 @@ nav .menu a {
   text-align: center;
   margin: 0 auto;
 }
+#banner .banner-content p img{
+  width:16px;
+ margin-right: 5px;
+ margin-top: 5px;
+  
+}
 #banner .banner-content .early-access {
   font-size: 16px;
   background-color: white;
@@ -86,7 +92,10 @@ nav .menu a {
   gap: 15px;
   justify-content: center;
 }
-
+#banner .banner-content .button i{
+ margin-left: 20px;
+ margin-right: 10px;
+}
 #banner .banner-content .button li {
   list-style-type: none;
   margin-top: 45px;
@@ -94,6 +103,7 @@ nav .menu a {
 #banner .banner-content .button a {
   text-decoration: none;
   gap: 40px;
+  width: 150px;
 }
 #banner .banner-content .button .first-button {
   background-color: #30b868;
