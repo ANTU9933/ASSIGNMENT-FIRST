@@ -157,8 +157,6 @@ nav .menu a {
 }
 #picture-banner {
   margin-top: 120px;
-  
-
 }
 #picture-banner .picture-content {
   width: 85%;
@@ -175,35 +173,120 @@ nav .menu a {
   width: 700px;
   margin: 102px 0 102px 60px;
 }
-.text-content h6{
+.text-content h6 {
   font-size: 16px;
   color: #30b868;
   font-weight: 400;
   margin-bottom: 16px;
 }
-.text-content h3{
+.text-content h3 {
   font-size: 48px;
   margin-top: 16px;
   line-height: 60px;
 }
-.text-content p{
+.text-content p {
   color: #627382;
   font-size: 16px;
   line-height: 20px;
   margin-top: 16px;
   margin-bottom: 26px;
-
 }
-.text-content img{
+.text-content img {
   width: 16px;
 }
-.text-content ul{
- margin-top: 16px;
- text-decoration: none;
- list-style-type: none;
+.text-content ul {
+  margin-top: 16px;
+  text-decoration: none;
+  list-style-type: none;
 }
-.text-content  li {
+.text-content li {
   font-size: 16px;
   margin-top: 16px;
+}
+#ready {
+  margin-bottom: 120px;
+  margin-top:80px ;
+}
+#ready .ready-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 80px 350px;
+}
+.ready-container h3{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
 
+}
+.ready-container p{
+  font-size: 16px;
+  color: #627382;
+}
+.ready-container .get-early{
+  background-color: #30b868;
+  width: 194px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 14px 46px 16px 6px;
+  margin-top: 24px;
+  
+}
+.ready-container p{
+  margin-top:24px;
+}
+#footer{
+  margin-top: 100px;
+  background-color:#001931;
+}
+#footer .footer-content{
+ width: 85%;
+ max-width: 1360px;
+ padding: 120px 20px 120px 40px;
+ display: flex;
+ justify-content: space-between ;
+}
+.footer-content .footer-image img{
+  width: 140px;
+}
+.footer-content .social-links p{
+  color: White;
+  font-size:20px ;
+  margin-bottom: 16px;
+}
+.footer-content .social-links ul{
+  display: flex;
+  align-items: center;
+  
+}
+.footer-content .social-links li{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  margin-right: 15px;
+  
+
+}
+.footer-items{
+  color: white;
+  width: 85%;
+  padding: ;
+  max-width: 1360px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.footer-line{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.line-break{
+  margin-top: 40px;
+  color: #627382;
 }
